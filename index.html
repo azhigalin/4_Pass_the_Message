@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pass the Message</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="message">
+        <div>
+          <h3 style="text-align: center; font-weight: bold">
+            Передайте сообщение
+          </h3>
+          <p style="border-bottom: 2px solid grey"></p>
+        </div>
+        <div>
+          <label for="message-input">Введите сообщение</label>
+          <br />
+          <button style="border-radius: 5px 0 0 5px; margin: 15px 0">
+            <i class="fa-sharp fa-solid fa-envelope"></i></button
+          ><input id="message-input" type="text" />
+        </div>
+        <div>
+          <button class="submit">Отправить</button>
+          <p
+            id="message-output"
+            style="text-align: center; text-transform: uppercase"
+          ></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
